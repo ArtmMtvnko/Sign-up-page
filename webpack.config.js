@@ -8,7 +8,13 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].[contenthash].js'
+        filename: '[name].[contenthash].js',
+        clean: true,
+        assetModuleFilename: 'assets/[name][ext]'
+    },
+    // devtool: 'source-map',
+    devServer: {
+        port: 4200
     },
     plugins: [
         new HtmlWebpackPlugin({
@@ -26,6 +32,10 @@ module.exports = {
             {
                 test: /\.s[ac]ss$/,
                 use: ['style-loader', 'css-loader', 'sass-loader']
+            },
+            {
+                test: /\.(png|svg|jpg|jpeg|gif)$/,
+                type: 'asset/resource'
             }
         ]
     }

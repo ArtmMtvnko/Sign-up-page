@@ -1,0 +1,19 @@
+.login__wrapper {
+    display: flex;
+}
+
+.login__forms {
+    display: grid;
+}
+
+.forms__item {
+    border-bottom: 1px solid  #3d3838;
+    input {
+        transition: 0.3s ease-out;
+        margin: 10px 0;
+        padding: 5px;
+        &:focus {
+            box-shadow: 0 0 2px 0 #000000 ;
+        }
+    }
+}

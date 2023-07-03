@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;700&display=swap');
+@import "null-styles.scss";
+@import "aside.scss";
+@import "form-area.scss";
+
+$color: #1b8b44;
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrap {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
