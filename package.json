@@ -1,0 +1,34 @@
+{
+  "name": "sign-up-page",
+  "version": "1.0.0",
+  "description": "Sing up page with using webpack (task from the odin project)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtmMtvnko/Sign-up-page.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "webpack"
+  ],
+  "author": "Artem Matviienko <artemm3note@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtmMtvnko/Sign-up-page/issues"
+  },
+  "homepage": "https://github.com/ArtmMtvnko/Sign-up-page#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
