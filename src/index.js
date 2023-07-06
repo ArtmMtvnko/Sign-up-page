@@ -1,4 +1,4 @@
-import { labelUp, labelDown } from './label-up.js'
+import { labelUp, labelDown } from './labelAnim.js'
 import './styles/main.scss'
 import logo from './assets/img/logo.jpg'
 

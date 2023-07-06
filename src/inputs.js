@@ -1,0 +1,1 @@
+export const inputs = document.querySelectorAll('.forms__item input')

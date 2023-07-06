@@ -1,0 +1,30 @@
+@media screen and (max-width: 1260px) {
+    .wrap {
+        flex-direction: column;
+    }
+
+    .side-image {
+        min-height: 30%;
+        width: 100%;
+
+        .logo-wrap {
+            height: 60%;
+        }
+    }
+
+    .login {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+
+    .login__forms {
+        margin: 30px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .login__forms {
+        grid-template-columns: 1fr;
+    }
+}
