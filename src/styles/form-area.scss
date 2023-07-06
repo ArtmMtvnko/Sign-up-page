@@ -35,10 +35,9 @@ $semi-dark-color: #FF8989;
     margin: 20px 40px 20px 0;
     position: relative;
     label {
-        // display: none;
+        cursor: text;
         position: absolute;
-        opacity: 0;
-        background-color: $semi-dark-color;
+        color: #4f4f4f;
         border-radius: 3px;
         padding: 10px 3px;
         margin: 0 0 0 5px;
@@ -54,15 +53,9 @@ $semi-dark-color: #FF8989;
         background-color: transparent;
         border-bottom: 1px solid;
         border-color: #000000;
-        &::placeholder {
-            transition: color 0.2s ease;
-        }
         &:focus {
             box-shadow: 0 0 4px 1px $semi-dark-color;
             border-color: $semi-dark-color;
-            &::placeholder {
-                color: transparent;
-            }
         }
     }
 }
@@ -88,6 +81,8 @@ $semi-dark-color: #FF8989;
     100% {
         opacity: 1;
         padding: 3px 5px;
+        background-color: $semi-dark-color;
+        color: #000000;
         transform: translateY(-14px);
     }
 }
@@ -96,14 +91,18 @@ $semi-dark-color: #FF8989;
     0% {
         opacity: 1;
         padding: 3px 5px;
+
+        background-color: $semi-dark-color;
+        color: #000000;
+        
         transform: translateY(-14px);
     }
-    50% {
-        padding: 10px 3px;
-        transform: translateY(0px);
-    }
     100% {
-        opacity: 0;
+        padding: 10px 3px;
+        
+        color: #4f4f4f;
+        background-color: transparent;
+
         transform: translateY(0px);
     }
 }
