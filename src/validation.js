@@ -1,7 +1,5 @@
 import { inputs } from './inputs.js'
 
-const submitButton = document.querySelector('#submit-btn')
+const submitBtn = document.querySelector('#submit-btn')
 
-submitButton.addEventListener('click', () => {})
-
-console.log(inputs)
+submitBtn.onclick = () => {}
